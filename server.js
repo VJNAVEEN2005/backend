@@ -5,11 +5,6 @@ import path from 'path'
 import multer from 'multer'
 
 
-
-
-
-
-
 const app = express();
 app.use(cors());
 app.use(express.json())
@@ -207,6 +202,6 @@ app.get('/reviews/star/:id', (req, res) => {
 
 
 
-app.listen(process.env.X_ZOHO_CATALYST_LISTEN_PORT || 8081, () => {
+app.listen(8081, () => {
     console.log("Listening");
 })
