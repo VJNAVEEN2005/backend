@@ -1,0 +1,8 @@
+{
+	"command": "node ./server.js",
+	"build_path": "C:\\Users\\vjnav\\OneDrive\\Desktop\\project\\Synclance\\backend",
+	"stack": "node18",
+	"env_variables": {},
+	"memory": 256,
+	"scripts": {}
+}
